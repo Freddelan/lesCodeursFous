@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Adrenaline";
+    src: url("Adrenaline_Hit_Italic.ttf");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    background-color: #D1F8EB;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #BFB975;
+
+}
+
+.titre {
+    display: flex;
+    right: -100%;
+    margin-left: 25px;
+    color: white;
+    border-top-right-radius: 25px;
+    text-align: center;
+    animation: mon-animation 2s infinite alternate;
+    font-family: "Adrenaline";
+    stroke: #050505;
+}
+
+@keyframes mon-animation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+.menu {
+    font: bold 11px Batang, arial, serif;
+    list-style-type: none;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #9EA0A1;
+    margin-left: 0;
+}
+
+.menu li {
+    float: left;
+    height: 30px;
+    background-color: #2178B4;
+    margin: 1px 2px 0 2px;
+    border: 1px solid #9EA0A1;
+}
+
+.menu li.active {
+    border-bottom: 1px solid #fff;
+    background-color: #2178B4;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.menu a:hover {
+    background: #000;
+}
+
+#nav {
+    border-bottom: 1px solid #9EA0A1;
+    padding-bottom: 25px;
+}
+
+.menu {
+    position: absolute;
+    border: 1px solid transparent;
+    padding: 0;
+    font: bold 20px Batang, arial, serif;
+    list-style-type: none;
+    left: 90%;
+    width: 430px;
+    margin-left: -215px;
+}
+
+#lateam {
+    margin-top: 3em;
+    text-align: center;
+    font-family: "Adrenaline";
+    stroke: #D1F8EB;
+}
+
+#titlelateam {
+    border: 1px solid #79b8d0;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px 0%;
+    background-color: #79b8d0;
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    section {
+        /*border: 1px solid black;*/
+        width: 100%;
+        min-height: 10em;
+    }
+
+    article {
+        /*border: 1px solid black;*/
+        display: inline-block;
+        width: 49%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    section {
+        /*border: 1px solid black;*/
+        width: 100%;
+        min-height: 10em;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+article {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s ease;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.description {
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 100%;
+    background-color: #BFB975;
+    bottom: 0;
+    position: fixed;
+}
+
+#git {
+    width: 50px;
+    height: 30px;
+}
+
+#fb {
+    width: 30px;
+    height: 30px;
+}
