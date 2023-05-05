@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Adrenaline";
-    src: url("../Adrenaline_Hit_Italic.ttf");
+    src: url("Adrenaline_Hit_Italic.ttf");
 }
 
 body {
@@ -123,6 +123,7 @@ section p {
 iframe {
     width: 20rem;
     height: 20rem;
+    border: 2px solid black !important;
 }
 
 footer {
