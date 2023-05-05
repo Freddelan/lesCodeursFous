@@ -34,7 +34,7 @@ header {
     font-family: 'Adrenaline' !important;
 }
 
-@keyframes mon-animation {
+/*@keyframes mon-animation {
     0% {
         transform: translateX(0);
     }
@@ -42,7 +42,7 @@ header {
     100% {
         transform: translateX(50px);
     }
-}
+}*/
 
 .titre a {
     text-decoration: none;
@@ -118,6 +118,11 @@ section h2 {
 
 section p {
     font-size: x-large;
+}
+
+iframe {
+    width: 20rem;
+    height: 20rem;
 }
 
 footer {
