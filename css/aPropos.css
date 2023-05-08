@@ -145,3 +145,11 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+.button {
+    margin-left: 30%;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    /*margin-left: 50%;*/
+}

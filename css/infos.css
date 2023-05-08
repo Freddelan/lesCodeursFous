@@ -118,6 +118,14 @@ footer {
     height: 30px;
 }
 
+.button {
+    margin-left: 30%;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    /*margin-left: 50%;*/
+}
+
 .titreInfos {
     margin-top: 1em;
     text-align: center;
