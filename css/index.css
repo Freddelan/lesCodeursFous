@@ -6,16 +6,15 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     width: 100%;
-    background-color: #D1F8EB;
+    background-color: #d1f8eb;
 }
 
 header {
     display: flex;
     width: 100%;
-    background-color: #BFB975;
-
+    background-color: #bfb975;
 }
 
 .titre {
@@ -44,21 +43,21 @@ header {
     font: bold 11px Batang, arial, serif;
     list-style-type: none;
     padding-bottom: 24px;
-    border-bottom: 1px solid #9EA0A1;
+    border-bottom: 1px solid #9ea0a1;
     margin-left: 0;
 }
 
 .menu li {
     float: left;
     height: 30px;
-    background-color: #2178B4;
+    background-color: #2178b4;
     margin: 1px 2px 0 2px;
-    border: 1px solid #9EA0A1;
+    border: 1px solid #9ea0a1;
 }
 
 .menu li.active {
     border-bottom: 1px solid #fff;
-    background-color: #2178B4;
+    background-color: #2178b4;
 }
 
 .menu a {
@@ -73,7 +72,7 @@ header {
 }
 
 #nav {
-    border-bottom: 1px solid #9EA0A1;
+    border-bottom: 1px solid #9ea0a1;
     padding-bottom: 25px;
 }
 
@@ -92,7 +91,7 @@ header {
     margin-top: 3em;
     text-align: center;
     font-family: "Adrenaline";
-    stroke: #D1F8EB;
+    stroke: #d1f8eb;
 }
 
 #titlelateam {
@@ -131,17 +130,17 @@ header {
     }
 }
 
-
-
 article {
     text-align: center;
 }
 
-img {
+img:not(.logo) {
     width: 350px;
     height: auto;
     border-radius: 2%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: 1s ease;
 }
 
@@ -167,7 +166,7 @@ footer {
     align-items: center;
     height: 5em;
     width: 100%;
-    background-color: #BFB975;
+    background-color: #bfb975;
     bottom: 0;
 }
 
