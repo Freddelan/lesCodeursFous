@@ -144,7 +144,7 @@ img:not(.logo) {
     transition: 1s ease;
 }
 
-img:hover {
+img:hover:not(.logo) {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
