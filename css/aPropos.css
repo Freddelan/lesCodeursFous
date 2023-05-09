@@ -116,15 +116,17 @@ section h2 {
     margin-bottom: 3em;
 }
 
-section p {
-    font-size: x-large;
-}
-
 iframe {
     width: 20rem;
     height: 20rem;
     border: 2px solid black !important;
 }
+
+section p {
+    font-size: x-large;
+}
+
+
 
 footer {
     display: flex;

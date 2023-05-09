@@ -105,6 +105,16 @@ header {
     background-color: #79b8d0;
 }
 
+.blink {
+    animation: blinker 0.8s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 @media screen and (min-width: 700px) and (max-width: 950px) {
     section {
         /*border: 1px solid black;*/
@@ -134,7 +144,23 @@ article {
     text-align: center;
 }
 
-img:not(.logo) {
+.imgronde {
+    width: 350px;
+    height: auto;
+    border-radius: 2%;
+    transition: border-radius 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.imgronde:hover {
+    border-radius: 50%;
+}
+
+
+
+/*img:not(.logo) {
     width: 350px;
     height: auto;
     border-radius: 2%;
@@ -149,11 +175,15 @@ img:hover:not(.logo) {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 1s ease;
-}
+}*/
 
 .description {
     text-transform: uppercase;
     font-size: xx-large;
+}
+
+.btnCompetence {
+    margin-bottom: 3em;
 }
 
 table {
