@@ -126,6 +126,10 @@ footer {
     /*margin-left: 50%;*/
 }
 
+.button:hover {
+    color: black;
+}
+
 .titreInfos {
     margin-top: 1em;
     text-align: center;

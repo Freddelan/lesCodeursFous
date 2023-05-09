@@ -187,3 +187,7 @@ footer {
     font-size: x-large;
     /*margin-left: 50%;*/
 }
+
+.button:hover {
+    color: black;
+}

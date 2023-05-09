@@ -100,7 +100,7 @@ header {
 
 section {
     text-align: center;
-    min-height: 65em;
+    min-height: 55em;
     margin-top: 5em;
     /*border: 1px solid black;*/
 }
@@ -152,4 +152,8 @@ footer {
     color: white;
     font-size: x-large;
     /*margin-left: 50%;*/
+}
+
+.button:hover {
+    color: black;
 }
