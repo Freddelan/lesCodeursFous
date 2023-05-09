@@ -23,13 +23,14 @@
     <section>
         <article>
             <a href="Fred.html">
-                <img src="../img/Fred.jfif" alt="alt" /></a>
+                <img class="imgronde" src="../img/Fred.jfif" alt="alt" /></a>
             <div class="description">
                 <p>Frédéric</p>
                 <p>50 ans</p>
                 <p>Développeur Web</p>
             </div>
-            <table>
+            <button class="btnCompetence" id="competences-btn-fred">Compétences</button>
+            <table style="display: none;" id="competences-menu-fred">
                 <tr>
                     <td><label for="file">HTML:</label></td>
                     <td>
@@ -66,13 +67,14 @@
         </article>
         <article>
             <a href="Denis.html">
-                <img src="../img/Denis.jfif" alt="alt" /></a>
+                <img class="imgronde" src="../img/Denis.jfif" alt="alt" /></a>
             <div class="description">
                 <p>Denis</p>
                 <p>60 ans</p>
                 <p>Auto formation Symfony</p>
             </div>
-            <table>
+            <button class="btnCompetence" id="competences-btn-denis">Compétences</button>
+            <table style="display: none;" id="competences-menu-denis">
                 <tr>
                     <td><label for="file">HTML</label></td>
                     <td>
@@ -101,13 +103,14 @@
         </article>
         <article>
             <a href="Nico.html">
-                <img src="../img/Nico.jfif" alt="alt" /></a>
+                <img class="imgronde" src="../img/Nico.jfif" alt="alt" /></a>
             <div class="description">
                 <p>Nicolas</p>
                 <p>24 ans</p>
                 <p>Développeur Web</p>
             </div>
-            <table class="competences">
+            <button class="btnCompetence" id="competences-btn-nico">Compétences</button>
+            <table style="display: none;" id="competences-menu-nico">
                 <tr>
                     <td><label for="file">HTML:</label></td>
                     <td>
@@ -158,6 +161,7 @@
         </div>
         <a class="button" href="aPropos.html">A propos</a>
     </footer>
+    <script src="../js/app.js"></script>
 </body>
 
 </html>
